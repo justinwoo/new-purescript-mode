@@ -22,3 +22,8 @@ For any IDE related functionality, install [psc-ide-emacs](https://github.com/ep
 (require 'new-purescript-mode)
 ```
 
+If you are using Spacemacs, consider telling it to not mess with indentation:
+
+```lisp
+(add-to-list 'spacemacs-indent-sensitive-modes 'purescript-mode)
+```
