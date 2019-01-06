@@ -52,9 +52,9 @@
        (regexp-opt
         '("if" "then" "else" "case" "of"
           "do" "_" "let"
-          "module" "import" "where"
+          "module" "import" "where" "as"
           "instance" "derive" "forall"
-          "newtype" "data" "class" "type"
+          "newtype" "data" "class" "type" "kind"
           "infix" "infixl" "infixr")
         'words))
       (my-operators-regexp
