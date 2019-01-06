@@ -7,7 +7,7 @@ For any IDE related functionality, install [psc-ide-emacs](https://github.com/ep
 ## Goals
 
 * Cheap syntax highlighting
-* Indentation via SMIE <https://www.gnu.org/software/emacs/manual/html_mono/elisp.html#SMIE>
+* Indentation via SMIE or some other method not involving parsing in elisp <https://www.gnu.org/software/emacs/manual/html_mono/elisp.html#SMIE>
 
 ## TODO
 
