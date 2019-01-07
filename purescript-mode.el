@@ -52,7 +52,7 @@
        (regexp-opt
         '("if" "then" "else" "case" "of"
           "do" "_" "let"
-          "module" "import" "where" "as"
+          "module" "import" "where" "as" "foreign"
           "instance" "derive" "forall"
           "newtype" "data" "class" "type" "kind"
           "infix" "infixl" "infixr")
