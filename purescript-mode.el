@@ -69,7 +69,7 @@
       (my-types-modules-regexp "\\<[A-Z][0-9A-Za-z_']*")
       (my-function-names-regexp "^\\([a-z_][0-9A-Za-z_']*\\|([^)]+)\\)")
       )
-   `((,my-operators-regexp . font-lock-highlighting-faces)
+   `((,my-operators-regexp . font-lock-operator-face)
      (,my-keywords-regexp . font-lock-keyword-face)
      (,my-types-modules-regexp . font-lock-type-face)
      (,my-function-names-regexp . font-lock-function-name-face)
