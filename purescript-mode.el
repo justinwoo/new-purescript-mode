@@ -51,7 +51,7 @@
      ((my-keywords-regexp
        (regexp-opt
         '("if" "then" "else" "case" "of"
-          "ado" "do" "_" "let"
+          "ado" "do" "_" "let" "foreign"
           "module" "import" "where" "as"
           "instance" "derive" "forall" "∀"
           "newtype" "data" "class" "type" "kind"
