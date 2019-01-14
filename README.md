@@ -11,7 +11,6 @@ For any IDE related functionality, install [psc-ide-emacs](https://github.com/ep
 
 ## TODO
 
-* Fix psc-ide-emacs to not depend on a literal "purescript-mode" (I will PR this sooner or later)
 * Indentation
 * Misc.
 
