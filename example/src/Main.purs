@@ -1,8 +1,10 @@
 module Main where
 
 import Prelude
+
 import Effect (Effect)
 import Effect.Console (log)
+import Module123 as Module123
 
 data Fruit = Apple | Banana | Grape Int
 
@@ -12,6 +14,9 @@ type MyRecord =
   }
 
 derive instance fruitEq :: Eq Fruit
+
+yup :: Module123.Hello123
+yup = ?sddf Module123.exactly123
 
 -- comment
 {- comment -}
