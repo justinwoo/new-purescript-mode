@@ -69,7 +69,7 @@
           "<=" "⇐"
           "~>" "|")
         'words))
-      (my-types-modules-regexp "\\<[A-Z][A-Za-z_]*\\(\.[A-Z][A-Za-z_]*\\)*")
+      (my-types-modules-regexp "\\<[A-Z][0-9A-Za-z_]*\\(\.[A-Z][0-9A-Za-z_]*\\)*")
       (my-function-names-regexp "^\\([a-z_][0-9A-Za-z_']*\\|([^)]+)\\)")
       )
    `((,my-operators-regexp . font-lock-operator-face)
