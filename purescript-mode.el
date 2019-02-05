@@ -42,6 +42,7 @@
    (modify-syntax-entry ?_  "w" table)
    (modify-syntax-entry ?\?  "w" table)
    (modify-syntax-entry ?.  "w" table)
+   (modify-syntax-entry ?'  "w" table)
    (modify-syntax-entry ?\{  "(}1nb" table)
    (modify-syntax-entry ?\}  "){4nb" table)
    (modify-syntax-entry ?-  "_ 123" table)
