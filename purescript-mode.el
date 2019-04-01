@@ -41,7 +41,6 @@
  (let ((table (make-syntax-table)))
    (modify-syntax-entry ?_  "w" table)
    (modify-syntax-entry ?\?  "w" table)
-   (modify-syntax-entry ?.  "w" table)
    (modify-syntax-entry ?'  "w" table)
    (modify-syntax-entry ?\{  "(}1nb" table)
    (modify-syntax-entry ?\}  "){4nb" table)
@@ -55,7 +54,7 @@
      ((my-keywords-regexp
        (regexp-opt
         '("if" "then" "else" "case" "of"
-          "ado" "do" "_" "let" "foreign"
+          "ado" "do" "_" "let" "in" "foreign"
           "module" "import" "where" "as"
           "instance" "derive" "forall" "∀"
           "newtype" "data" "class" "type" "kind"
